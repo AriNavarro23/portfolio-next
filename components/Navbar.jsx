@@ -18,7 +18,7 @@ const Navbar = () => {
   }
   useEffect(() => {
     if (
-      router.push("/TodolistPage") ||
+      router.path === "/TodolistPage" ||
       router.push("/PasswordPage") ||
       router.push("/CrudPage") ||
       router.push("/WeatherPage")
